@@ -1,0 +1,2 @@
+class LaptopDrive < Drive
+end

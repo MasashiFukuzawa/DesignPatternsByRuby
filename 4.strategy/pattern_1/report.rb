@@ -1,0 +1,11 @@
+class Report
+  def initialize(formatter)
+    @title = '月次報告'
+    @text = ['順調', '最高の調子']
+    @formatter = formatter
+  end
+
+  def output_report
+    @formatter.output_report(@title, @text)
+  end
+end
